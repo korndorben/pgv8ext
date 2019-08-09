@@ -8,6 +8,8 @@ ENV PLV8_VERSION=v2.3.12 \
 
 RUN buildDependencies="build-essential \
     ca-certificates \
+    apt-utils \
+    python \
     curl \
     git-core \
     postgresql-server-dev-$PG_MAJOR" \
